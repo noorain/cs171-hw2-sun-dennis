@@ -44,6 +44,9 @@
 var link, node;
 var graph = {nodes:[], links:[]};
 
+var branch_names = [];
+var contributors = [];
+
 // establishes svg canvas size
 var width = 900,
     height = 700;
@@ -117,7 +120,8 @@ function line_cat_layout() {
   force.stop();
 
   graph.nodes.forEach(function(d, i) {
-    d.y = height/2 + d.cat*20;
+    d.y = 20 + contributors.indexOf(d.committer)*20;
+    d.x = width - 100 - i * 15;
   })
 
   graph_update(500);
@@ -150,7 +154,7 @@ function radial_layout() {
 }
 
 function category_color() {
-  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(contributors.indexOf(d.committer)); });
 }
 
 function category_size() {
@@ -201,7 +205,9 @@ d3.json("commits.json", function(data) {
     object = data[i];
 
       sha = object.sha;
-      shaObjectForPush = {cat : sha};
+      committer = object.committer.login;
+
+      shaObjectForPush = {cat : sha, committer : committer, branch: "", locOfParent : []};
       graph.nodes.push(shaObjectForPush);
 
       parents = object.parents;
@@ -220,58 +226,91 @@ d3.json("commits.json", function(data) {
                   "source" : i, "target" : k
                 }
                 graph.links.push(pSShaObjectForPush);
-
-                locOfParent = "locOfParent-" + j;
-
-                pSShaObjectParentLabels = {
-                  locOfParent : k
-                }
+                graph.nodes[i].locOfParent.push(k);
               }
           }
       }
   }
   console.log(graph);
 
-  link = svg.selectAll(".link")
-              .data(graph.links)
-            .enter().append("line")
-              .attr("class", "link")
+  d3.json("heads.json", function(refs) {
+    console.log(refs);
 
-  node = svg.selectAll(".node")
-              .data(graph.nodes)
-            .enter()
-              .append("g").attr("class", "node");
-
-node.append("circle")
-    .attr("r", 5)
-
-  force_layout();
-})
-
-d3.json("refs.json", function(data) {
-  console.log(data);
-  for (i = 0; i < graph.nodes.length; i++) {
-    
-    node = graph.nodes[i];
-
-      sha = node.sha;
-      for (j = 0; j < data.length; i++) {
-
-        object = data[j];
-          innerObject = object.object;
-            refSha = innerObject.sha;
-
-            if (refSha == sha) {
-              graph.nodes[i].push({
-                innerObject.ref
-              });
-            }
-            else {
-
-            }
+    refs.sort(function(a,b){
+      if (a.ref == "refs/heads/master") {
+        return 1;
       }
-  }
+      else if (b.ref == "refs/heads/master") {
+        return -1;
+      }
+      else{
+        return 0;
+      }
+    })
+
+    console.log(refs);
+
+        for (b = 0; b < refs.length; b++) {
+
+          object = refs[b];
+            refSha = object.object.sha;
+
+            for (a = 0; a < graph.nodes.length; a++) {
+
+              node = graph.nodes[a];
+
+                sha = node.cat;
+
+              if (sha == refSha) {
+                node.branch = object.ref;
+              }
+              if (node.locOfParent != null) {
+                for (c = 0; c < node.locOfParent.length; c++) {
+
+                    nNode = graph.nodes[c];
+                    if (nNode.branch.length == 0) {
+                      nNode.branch = object.ref;
+                    }
+                }
+              }
+            }
+        }
+
+    for(e = 0; e < graph.nodes.length; e++) {
+
+      node = graph.nodes[e];
+      branch = node.branch;
+
+      if (branch_names.indexOf(branch) == -1) {
+        branch_names.push(branch);
+      }
+
+      if (contributors.indexOf(node.committer) == -1) {
+        contributors.push(node.committer);
+      }
+    }
+
+    console.log(graph);
+
+    link = svg.selectAll(".link")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("class", "link")
+
+    node = svg.selectAll(".node")
+      .data(graph.nodes)
+      .enter()
+      .append("g")
+      .attr("class", "node");
+
+    node.append("circle")
+      .attr("r", 5)
+
+    force_layout();
+  });
 })
+
+
 
 </script>
 </body>

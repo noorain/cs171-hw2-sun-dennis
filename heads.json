@@ -1,0 +1,29 @@
+[
+  {
+    "ref": "refs/heads/experiment/frank",
+    "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/refs/heads/experiment/frank",
+    "object": {
+      "sha": "5c1ff4e261c065c35d85492a479ae17361be4d80",
+      "type": "commit",
+      "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/commits/5c1ff4e261c065c35d85492a479ae17361be4d80"
+    }
+  },
+  {
+    "ref": "refs/heads/master",
+    "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/refs/heads/master",
+    "object": {
+      "sha": "8405892196e5f0df6a7316bb41bdf41833ef9751",
+      "type": "commit",
+      "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/commits/8405892196e5f0df6a7316bb41bdf41833ef9751"
+    }
+  },
+  {
+    "ref": "refs/heads/mixpanel",
+    "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/refs/heads/mixpanel",
+    "object": {
+      "sha": "5583d857d3bc356831bd93df2237cba6d87e23ff",
+      "type": "commit",
+      "url": "https://api.github.com/repos/nothingmagical/cheddar-ios/git/commits/5583d857d3bc356831bd93df2237cba6d87e23ff"
+    }
+  }
+]
