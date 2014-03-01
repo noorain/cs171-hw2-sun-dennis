@@ -3,13 +3,13 @@
 <title>Homework 2 Graph</title>
 <style>
   .link {
-    stroke: gray;
+    stroke: #aaaaaa;
     stroke-width: 1.5px;
   }
 
   .node {
     fill: #66CC66;
-    stroke: #000;
+    stroke: #eeeeee;
     stroke-width: 1px;
   }
 
@@ -33,6 +33,10 @@
     <label><input type="radio" name="color" value="nocolor" checked> None</label>
     <label><input type="radio" name="color" value="color_cat" > Category</label>
   </form>
+  Sort:
+    <label><input type="radio" name="color" value="normal_sort" checked> Spaced</label>
+    <label><input type="radio" name="color" value="time_sort" > Time</label>
+  </form>
   <form>
   Size:
     <label><input type="radio" name="size" value="nosize" checked> None</label>
@@ -50,6 +54,14 @@ var contributors = [];
 // establishes svg canvas size
 var width = 900,
     height = 700;
+
+var minx = 200,
+    maxx = width-100;
+
+//establishes scales
+var normalScale = d3.scale.linear().range([maxx, minx]);
+var timeScale = d3.time.scale().range([minx, maxx]);
+var timeScaled = false;
 
 // generates svg canvas
 var svg = d3.select("body").append("svg")
@@ -120,9 +132,23 @@ function line_cat_layout() {
   force.stop();
 
   graph.nodes.forEach(function(d, i) {
-    d.y = 20 + contributors.indexOf(d.committer)*20;
-    d.x = width - 100 - i * 15;
-  })
+    d.y = 50 + contributors.indexOf(d.committer)*20;
+    if (timeScaled == false) {
+      d.x = timeScale(d.date);
+    }
+    else if (timeScaled == true) {
+      d.x = normalScale(i);
+    }
+  });
+
+  if (timeScaled == true){
+    timeScaled = false;
+  }
+  else if (timeScaled == false){
+    timeScaled = true;
+  }
+
+  console.log(timeScaled);
 
   graph_update(500);
 }
@@ -181,6 +207,8 @@ d3.select("input[value=\"random\"]").on("click", random_layout);
 d3.select("input[value=\"line\"]").on("click", line_layout);
 d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
 d3.select("input[value=\"radial\"]").on("click", radial_layout);
+d3.select("input[value=\"normal_sort\"]").on("click", line_cat_layout);
+d3.select("input[value=\"time_sort\"]").on("click", line_cat_layout);
 
 // allows color toggling
 d3.select("input[value=\"nocolor\"]").on("click", function() {
@@ -206,8 +234,15 @@ d3.json("commits.json", function(data) {
 
       sha = object.sha;
       committer = object.committer.login;
+      date = object.commit.committer.date;
 
-      shaObjectForPush = {cat : sha, committer : committer, branch: "", locOfParent : []};
+      shaObjectForPush = {
+        cat : sha, 
+        committer : committer, 
+        branch: "", 
+        locOfParent : [],
+        date : new Date(date)
+      };
       graph.nodes.push(shaObjectForPush);
 
       parents = object.parents;
@@ -232,6 +267,12 @@ d3.json("commits.json", function(data) {
       }
   }
   console.log(graph);
+
+  // sets domains for scales
+  normalScale.domain([0, data.length]);
+  timeScale.domain(d3.extent(graph.nodes, function(node){
+    return node.date;
+  }));
 
   d3.json("heads.json", function(refs) {
     console.log(refs);
@@ -292,10 +333,41 @@ d3.json("commits.json", function(data) {
 
     console.log(graph);
 
+    // build the arrow (from tutorial at http://bl.ocks.org/d3noob/5155181)
+    svg.append("svg:defs").selectAll("marker")
+        .data(["end"])      // Different link/path types can be defined here
+      .enter().append("svg:marker")    // This section adds in the arrows
+        .attr("id", String)
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 15)
+        .attr("refY", -1.5)
+        .attr("markerWidth", 6)
+        .attr("markerHeight", 6)
+        .attr("fill", "#aaaaaa")
+        .attr("orient", "auto")
+      .append("svg:path")
+        .attr("d", "M0,-5L10,0L0,5");
+
+    svg.selectAll("text")
+      .data(contributors)
+      .enter()
+      .append("text")
+      .text(function(d,i) {
+        return contributors[i];
+      })
+      .attr("y", function(d, i) {
+        return 50 + i * 20;
+      })
+      .attr("x", "50")
+      .attr("fill", function(d, i) { 
+        return fill(i); 
+      });
+
     link = svg.selectAll(".link")
       .data(graph.links)
       .enter().append("line")
       .attr("class", "link")
+      .attr("marker-end", "url(#end)");
 
     node = svg.selectAll(".node")
       .data(graph.nodes)
@@ -304,7 +376,7 @@ d3.json("commits.json", function(data) {
       .attr("class", "node");
 
     node.append("circle")
-      .attr("r", 5)
+      .attr("r", 5);
 
     force_layout();
   });
