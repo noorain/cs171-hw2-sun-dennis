@@ -40,6 +40,9 @@
   </form>
 <script>
 
+var link, node;
+var graph = {nodes:[], links:[]};
+
 var width = 900,
     height = 700;
 
@@ -49,11 +52,7 @@ var svg = d3.select("body").append("svg")
 
 var fill = d3.scale.category10();
 
-var graph = {nodes:[], links:[]};
-
-var nb_nodes = 100, nb_cat = 10;
-
-graph.nodes = d3.range(nb_nodes).map(function() {  
+graph.nodes = d3.range(graph.nodes).map(function() {  
   return { cat:Math.floor(nb_cat*Math.random()) }; 
 })
 
@@ -187,12 +186,46 @@ d3.select("input[value=\"nosize\"]").on("click", function() {
 
 d3.select("input[value=\"size_cat\"]").on("click", category_size);
 
-var link = svg.selectAll(".link")
+d3.json("commits.json", function(data) {
+  data = data.slice(0,40);
+  console.log(data);
+
+  for (i = 0; i < data.length; i++) {
+    
+    object = data[i];
+
+      sha = object.sha;
+      shaObjectForPush = {cat : sha};
+      graph.nodes.push(shaObjectForPush);
+
+      parents = object.parents;
+      for (j = 0; j < parents.length; j++) {
+        
+        parent = parents[j];
+
+          parentSha = parent.sha;
+          for (k = 0; k < data.length; k++) {
+            
+            pSObject = data[k];
+
+              pSSha = pSObject.sha;
+              if(parentSha == pSSha) {
+                pSShaObjectForPush = {
+                  "source" : i, "target" : k
+                }
+                graph.links.push(pSShaObjectForPush);
+              }
+          }
+      }
+  }
+  console.log(graph);
+
+  link = svg.selectAll(".link")
               .data(graph.links)
             .enter().append("line")
               .attr("class", "link")
 
-var node = svg.selectAll(".node")
+  node = svg.selectAll(".node")
               .data(graph.nodes)
             .enter()
               .append("g").attr("class", "node");
@@ -200,7 +233,8 @@ var node = svg.selectAll(".node")
 node.append("circle")
     .attr("r", 5)
 
-force_layout();
+  force_layout();
+})
 
 </script>
 </body>

@@ -4,7 +4,7 @@
 - Audience: contributors, visitors, project managers (everyone); 
 - Data: 
 	1. pull requests per date: `/repos/:owner/:repo/pulls`, get `created_at`.
-	2. issues opened per date: `/issues`, get `created_at`.
+	2. issues opened per date: `/repos/:owner/:repo/issues`, get `created_at`.
 	3. commits per date: `/repos/:owner/:repo/commits`, get all for each `date`.
 - Many Pushes: If this happens, then the single date will become the darkest
 color on the scale. To ensure that a clear gradient is established, the scale

@@ -1,0 +1,2044 @@
+[
+  {
+    "sha": "928b83505089d71c1d8bb87513470dc471ce58ca",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2014-01-08T01:17:25Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2014-01-08T01:17:25Z"
+      },
+      "message": "Merge pull request #184 from smic/empty_lines\n\n[NEW] Remove unnecessary empty lines in the generated files. (Stephan Michels)",
+      "tree": {
+        "sha": "2d0f1d13b6f16bc6934bd8678d431fdb6665ac5b",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/2d0f1d13b6f16bc6934bd8678d431fdb6665ac5b"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/928b83505089d71c1d8bb87513470dc471ce58ca",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/928b83505089d71c1d8bb87513470dc471ce58ca",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/928b83505089d71c1d8bb87513470dc471ce58ca",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/928b83505089d71c1d8bb87513470dc471ce58ca/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8b57d1d88d59680c932096eb27d327b7324f56d",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/b8b57d1d88d59680c932096eb27d327b7324f56d",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/b8b57d1d88d59680c932096eb27d327b7324f56d"
+      },
+      {
+        "sha": "4efa1c29e275bc22654fdf97fadbc97a5c420073",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/4efa1c29e275bc22654fdf97fadbc97a5c420073",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/4efa1c29e275bc22654fdf97fadbc97a5c420073"
+      }
+    ]
+  },
+  {
+    "sha": "b8b57d1d88d59680c932096eb27d327b7324f56d",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2014-01-03T20:34:33Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2014-01-03T20:34:33Z"
+      },
+      "message": "Add MIT LICENSE file to make it clear templates are under the same license.\n\nhttps://github.com/rentzsch/mogenerator/issues/186",
+      "tree": {
+        "sha": "1c3adb4d2d6a46d54b37adba3f2b573156a72320",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/1c3adb4d2d6a46d54b37adba3f2b573156a72320"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/b8b57d1d88d59680c932096eb27d327b7324f56d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/b8b57d1d88d59680c932096eb27d327b7324f56d",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/b8b57d1d88d59680c932096eb27d327b7324f56d",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/b8b57d1d88d59680c932096eb27d327b7324f56d/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8a05a3161be2a25cb072041936196c28dbdda07",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/e8a05a3161be2a25cb072041936196c28dbdda07",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/e8a05a3161be2a25cb072041936196c28dbdda07"
+      }
+    ]
+  },
+  {
+    "sha": "4efa1c29e275bc22654fdf97fadbc97a5c420073",
+    "commit": {
+      "author": {
+        "name": "Stephan Michels",
+        "email": "stephan.michels@gmail.com",
+        "date": "2013-12-20T15:53:02Z"
+      },
+      "committer": {
+        "name": "Stephan Michels",
+        "email": "stephan.michels@gmail.com",
+        "date": "2013-12-20T15:53:02Z"
+      },
+      "message": "Remove unnecessary empty lines in the generated files.",
+      "tree": {
+        "sha": "58e8cb41ea61c9a96fe1dce58d19f1bc3d361812",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/58e8cb41ea61c9a96fe1dce58d19f1bc3d361812"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/4efa1c29e275bc22654fdf97fadbc97a5c420073",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/4efa1c29e275bc22654fdf97fadbc97a5c420073",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/4efa1c29e275bc22654fdf97fadbc97a5c420073",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/4efa1c29e275bc22654fdf97fadbc97a5c420073/comments",
+    "author": {
+      "login": "smic",
+      "id": 431972,
+      "avatar_url": "https://avatars.githubusercontent.com/u/431972",
+      "gravatar_id": "072651c5bd0b9585d5d9987823bdf694",
+      "url": "https://api.github.com/users/smic",
+      "html_url": "https://github.com/smic",
+      "followers_url": "https://api.github.com/users/smic/followers",
+      "following_url": "https://api.github.com/users/smic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smic/subscriptions",
+      "organizations_url": "https://api.github.com/users/smic/orgs",
+      "repos_url": "https://api.github.com/users/smic/repos",
+      "events_url": "https://api.github.com/users/smic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "smic",
+      "id": 431972,
+      "avatar_url": "https://avatars.githubusercontent.com/u/431972",
+      "gravatar_id": "072651c5bd0b9585d5d9987823bdf694",
+      "url": "https://api.github.com/users/smic",
+      "html_url": "https://github.com/smic",
+      "followers_url": "https://api.github.com/users/smic/followers",
+      "following_url": "https://api.github.com/users/smic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smic/subscriptions",
+      "organizations_url": "https://api.github.com/users/smic/orgs",
+      "repos_url": "https://api.github.com/users/smic/repos",
+      "events_url": "https://api.github.com/users/smic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8a05a3161be2a25cb072041936196c28dbdda07",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/e8a05a3161be2a25cb072041936196c28dbdda07",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/e8a05a3161be2a25cb072041936196c28dbdda07"
+      }
+    ]
+  },
+  {
+    "sha": "e8a05a3161be2a25cb072041936196c28dbdda07",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-08-06T01:04:48Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-08-06T01:04:48Z"
+      },
+      "message": "Add CONTRIBUTING.md file.",
+      "tree": {
+        "sha": "b2f9c4324da4d963048dd8705b3f22034039a334",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/b2f9c4324da4d963048dd8705b3f22034039a334"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/e8a05a3161be2a25cb072041936196c28dbdda07",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/e8a05a3161be2a25cb072041936196c28dbdda07",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/e8a05a3161be2a25cb072041936196c28dbdda07",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/e8a05a3161be2a25cb072041936196c28dbdda07/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/238c308fac3b4bae43a08913f4cb09598c4cd1ea"
+      }
+    ]
+  },
+  {
+    "sha": "238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-08-06T00:50:07Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-08-06T00:50:07Z"
+      },
+      "message": "rename Test README.markdown to README.markdown to it shows up in https://github.com/rentzsch/mogenerator/tree/master/test",
+      "tree": {
+        "sha": "c4cdb073e88891bed64807eb40aaffc6d62d9c5d",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/c4cdb073e88891bed64807eb40aaffc6d62d9c5d"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/238c308fac3b4bae43a08913f4cb09598c4cd1ea",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/238c308fac3b4bae43a08913f4cb09598c4cd1ea/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/5bfc6d6b4c250aaeea40ae740f030502fba7ecae"
+      }
+    ]
+  },
+  {
+    "sha": "5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-07-03T22:09:36Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-07-03T22:09:36Z"
+      },
+      "message": "Merge pull request #165 from simonwhitaker/add-type-attribute-warning\n\n[CHANGE] Add a warning when skipping an attribute named 'type'. (Simon Whitaker)",
+      "tree": {
+        "sha": "f36b29328e122388e66ff7b92cd32641356b6b2c",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/f36b29328e122388e66ff7b92cd32641356b6b2c"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/5bfc6d6b4c250aaeea40ae740f030502fba7ecae",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5bfc6d6b4c250aaeea40ae740f030502fba7ecae/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1a2788e48612c2e5259b541841838565c1e88ec5",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/1a2788e48612c2e5259b541841838565c1e88ec5",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/1a2788e48612c2e5259b541841838565c1e88ec5"
+      },
+      {
+        "sha": "840b19518237894ef85ba7e6550371405ad600db",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/840b19518237894ef85ba7e6550371405ad600db",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/840b19518237894ef85ba7e6550371405ad600db"
+      }
+    ]
+  },
+  {
+    "sha": "840b19518237894ef85ba7e6550371405ad600db",
+    "commit": {
+      "author": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-07-03T21:22:02Z"
+      },
+      "committer": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-07-03T21:22:02Z"
+      },
+      "message": "Add a warning when skipping an attribute named 'type'",
+      "tree": {
+        "sha": "f36b29328e122388e66ff7b92cd32641356b6b2c",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/f36b29328e122388e66ff7b92cd32641356b6b2c"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/840b19518237894ef85ba7e6550371405ad600db",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/840b19518237894ef85ba7e6550371405ad600db",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/840b19518237894ef85ba7e6550371405ad600db",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/840b19518237894ef85ba7e6550371405ad600db/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "1a2788e48612c2e5259b541841838565c1e88ec5",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/1a2788e48612c2e5259b541841838565c1e88ec5",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/1a2788e48612c2e5259b541841838565c1e88ec5"
+      }
+    ]
+  },
+  {
+    "sha": "1a2788e48612c2e5259b541841838565c1e88ec5",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-05-31T19:12:12Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-05-31T19:12:12Z"
+      },
+      "message": "Merge pull request #163 from simonwhitaker/add-dotfile-support\n\n[NEW] Add support for setting command-line options via a JSON config file. (Simon Whitaker)",
+      "tree": {
+        "sha": "5bb38bb7d9e145b3f4c22808b3ce48603540319c",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/5bb38bb7d9e145b3f4c22808b3ce48603540319c"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/1a2788e48612c2e5259b541841838565c1e88ec5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/1a2788e48612c2e5259b541841838565c1e88ec5",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/1a2788e48612c2e5259b541841838565c1e88ec5",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/1a2788e48612c2e5259b541841838565c1e88ec5/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4"
+      },
+      {
+        "sha": "913fcbd98eb278facbe3bd3dd354d724217e7390",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/913fcbd98eb278facbe3bd3dd354d724217e7390",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/913fcbd98eb278facbe3bd3dd354d724217e7390"
+      }
+    ]
+  },
+  {
+    "sha": "913fcbd98eb278facbe3bd3dd354d724217e7390",
+    "commit": {
+      "author": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-05-31T08:38:08Z"
+      },
+      "committer": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-05-31T08:38:08Z"
+      },
+      "message": "Handle absence of NSJSONSerialization gracefully",
+      "tree": {
+        "sha": "5bb38bb7d9e145b3f4c22808b3ce48603540319c",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/5bb38bb7d9e145b3f4c22808b3ce48603540319c"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/913fcbd98eb278facbe3bd3dd354d724217e7390",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/913fcbd98eb278facbe3bd3dd354d724217e7390",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/913fcbd98eb278facbe3bd3dd354d724217e7390",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/913fcbd98eb278facbe3bd3dd354d724217e7390/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "f2b506377494a79640a0113f7f4a7a36124aba8a",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/f2b506377494a79640a0113f7f4a7a36124aba8a",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/f2b506377494a79640a0113f7f4a7a36124aba8a"
+      }
+    ]
+  },
+  {
+    "sha": "f2b506377494a79640a0113f7f4a7a36124aba8a",
+    "commit": {
+      "author": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-05-30T18:54:53Z"
+      },
+      "committer": {
+        "name": "Simon Whitaker",
+        "email": "simon@goosoftware.co.uk",
+        "date": "2013-05-30T18:54:53Z"
+      },
+      "message": "Add support for setting command-line options via a JSON config file\n\nThe file's called .mogenerator-args, format is a simple JSON array. A\ntypical example might be:\n\n    [\n        \"--template-var\", \"arc=true\",\n        \"--model\", \"MyApp.xcdatamodeld/MyApp.xcdatamodel\",\n        \"--machine-dir\", \"Model/machine\",\n        \"--human-dir\", \"Model\"\n    ]",
+      "tree": {
+        "sha": "b6ae2d70f0052caec81653bd28132915fe8198f2",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/b6ae2d70f0052caec81653bd28132915fe8198f2"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/f2b506377494a79640a0113f7f4a7a36124aba8a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/f2b506377494a79640a0113f7f4a7a36124aba8a",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/f2b506377494a79640a0113f7f4a7a36124aba8a",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/f2b506377494a79640a0113f7f4a7a36124aba8a/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4"
+      }
+    ]
+  },
+  {
+    "sha": "dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-04-25T22:50:49Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-04-25T22:50:49Z"
+      },
+      "message": "[CHANGE] Rename nolit templatevar to noliterals for clarity.",
+      "tree": {
+        "sha": "83fc258c7754e5985ed6552ca86c8468cd87297b",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/83fc258c7754e5985ed6552ca86c8468cd87297b"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dba7cff18678b1d1872fcf9c3a1a76d69c41d5a4/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/ead13025cb9bc698ca8146aa4932eb40fe4afd32"
+      }
+    ]
+  },
+  {
+    "sha": "ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-04-25T22:42:29Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-04-25T22:42:29Z"
+      },
+      "message": "[TEST] Automate testing of obj-c literals/no-literals.",
+      "tree": {
+        "sha": "094c4a328ba283b2a9baeac38ebf6f2bee0ebfae",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/094c4a328ba283b2a9baeac38ebf6f2bee0ebfae"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/ead13025cb9bc698ca8146aa4932eb40fe4afd32",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ead13025cb9bc698ca8146aa4932eb40fe4afd32/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc"
+      }
+    ]
+  },
+  {
+    "sha": "8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+    "commit": {
+      "author": {
+        "name": "Thomas van der Heijden",
+        "email": "thomas@mirrin.net",
+        "date": "2013-04-25T01:14:17Z"
+      },
+      "committer": {
+        "name": "Thomas van der Heijden",
+        "email": "thomas@mirrin.net",
+        "date": "2013-04-25T01:14:17Z"
+      },
+      "message": "Added new template-var to enable generation of objc literals",
+      "tree": {
+        "sha": "bb64ae0b51b51df985243054914ca9963b1ec9f3",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/bb64ae0b51b51df985243054914ca9963b1ec9f3"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/8b203a03fc4456b28087c7f3e0dc4d7637a89cdc/comments",
+    "author": {
+      "login": "batkuip",
+      "id": 110234,
+      "avatar_url": "https://avatars.githubusercontent.com/u/110234",
+      "gravatar_id": "a33fddb9121d02cd5499c2a1584f9b19",
+      "url": "https://api.github.com/users/batkuip",
+      "html_url": "https://github.com/batkuip",
+      "followers_url": "https://api.github.com/users/batkuip/followers",
+      "following_url": "https://api.github.com/users/batkuip/following{/other_user}",
+      "gists_url": "https://api.github.com/users/batkuip/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/batkuip/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/batkuip/subscriptions",
+      "organizations_url": "https://api.github.com/users/batkuip/orgs",
+      "repos_url": "https://api.github.com/users/batkuip/repos",
+      "events_url": "https://api.github.com/users/batkuip/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/batkuip/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "batkuip",
+      "id": 110234,
+      "avatar_url": "https://avatars.githubusercontent.com/u/110234",
+      "gravatar_id": "a33fddb9121d02cd5499c2a1584f9b19",
+      "url": "https://api.github.com/users/batkuip",
+      "html_url": "https://github.com/batkuip",
+      "followers_url": "https://api.github.com/users/batkuip/followers",
+      "following_url": "https://api.github.com/users/batkuip/following{/other_user}",
+      "gists_url": "https://api.github.com/users/batkuip/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/batkuip/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/batkuip/subscriptions",
+      "organizations_url": "https://api.github.com/users/batkuip/orgs",
+      "repos_url": "https://api.github.com/users/batkuip/repos",
+      "events_url": "https://api.github.com/users/batkuip/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/batkuip/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/fc6537d97f187121a38ddfe85c52796c8a3be2d0"
+      }
+    ]
+  },
+  {
+    "sha": "fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+    "commit": {
+      "author": {
+        "name": "Brandon Williams",
+        "email": "brandon@opetopic.com",
+        "date": "2012-07-25T19:12:33Z"
+      },
+      "committer": {
+        "name": "Thomas van der Heijden",
+        "email": "thomas@mirrin.net",
+        "date": "2013-04-25T00:48:58Z"
+      },
+      "message": "Update machine.m.motemplate to use objc literals.",
+      "tree": {
+        "sha": "b2c67e19063ccba568056fe48b9ad8befb719499",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/b2c67e19063ccba568056fe48b9ad8befb719499"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/fc6537d97f187121a38ddfe85c52796c8a3be2d0",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/fc6537d97f187121a38ddfe85c52796c8a3be2d0/comments",
+    "author": {
+      "login": "mbrandonw",
+      "id": 135203,
+      "avatar_url": "https://avatars.githubusercontent.com/u/135203",
+      "gravatar_id": "7459f59bd463f05056505a55dde46ac5",
+      "url": "https://api.github.com/users/mbrandonw",
+      "html_url": "https://github.com/mbrandonw",
+      "followers_url": "https://api.github.com/users/mbrandonw/followers",
+      "following_url": "https://api.github.com/users/mbrandonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mbrandonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mbrandonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mbrandonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/mbrandonw/orgs",
+      "repos_url": "https://api.github.com/users/mbrandonw/repos",
+      "events_url": "https://api.github.com/users/mbrandonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mbrandonw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "batkuip",
+      "id": 110234,
+      "avatar_url": "https://avatars.githubusercontent.com/u/110234",
+      "gravatar_id": "a33fddb9121d02cd5499c2a1584f9b19",
+      "url": "https://api.github.com/users/batkuip",
+      "html_url": "https://github.com/batkuip",
+      "followers_url": "https://api.github.com/users/batkuip/followers",
+      "following_url": "https://api.github.com/users/batkuip/following{/other_user}",
+      "gists_url": "https://api.github.com/users/batkuip/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/batkuip/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/batkuip/subscriptions",
+      "organizations_url": "https://api.github.com/users/batkuip/orgs",
+      "repos_url": "https://api.github.com/users/batkuip/repos",
+      "events_url": "https://api.github.com/users/batkuip/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/batkuip/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "03bac52a85b5e610ac58e119ccfb80009c2039df",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/03bac52a85b5e610ac58e119ccfb80009c2039df",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/03bac52a85b5e610ac58e119ccfb80009c2039df"
+      }
+    ]
+  },
+  {
+    "sha": "03bac52a85b5e610ac58e119ccfb80009c2039df",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-17T08:03:14Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-17T08:03:14Z"
+      },
+      "message": "Merge pull request #131 from echoz/master\n\n[NEW] Entity-level User Info Key/Value pairs are generated as const Structs. Use it to aid parsing JSON dictionaries or perhaps specify an entity's REST-based URL. (Jeremy Foo)",
+      "tree": {
+        "sha": "a92bd6fdc7a2f02eaccbd3fd373d275f9438ac09",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/a92bd6fdc7a2f02eaccbd3fd373d275f9438ac09"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/03bac52a85b5e610ac58e119ccfb80009c2039df",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/03bac52a85b5e610ac58e119ccfb80009c2039df",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/03bac52a85b5e610ac58e119ccfb80009c2039df",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/03bac52a85b5e610ac58e119ccfb80009c2039df/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/0d14b2f14c800c4753f79f6a93bb54c96bef3d94"
+      },
+      {
+        "sha": "4ca4405a28cbb17055dc8d0bfc6bc2fe60c426ed",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/4ca4405a28cbb17055dc8d0bfc6bc2fe60c426ed",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/4ca4405a28cbb17055dc8d0bfc6bc2fe60c426ed"
+      }
+    ]
+  },
+  {
+    "sha": "0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T23:54:34Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T23:54:34Z"
+      },
+      "message": "Merge pull request #152 from danielctull-forks/testfix\n\n[FIX] Test Dir: Handle Spaces in Derived Data Path. Closes #151. (Daniel Tull)",
+      "tree": {
+        "sha": "b520e74ca4e232e7eaa0a61a4f8c88e33c17c339",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/b520e74ca4e232e7eaa0a61a4f8c88e33c17c339"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/0d14b2f14c800c4753f79f6a93bb54c96bef3d94",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0d14b2f14c800c4753f79f6a93bb54c96bef3d94/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ace3403eb9f7d9296adee48df1283d3a60cfa755",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ace3403eb9f7d9296adee48df1283d3a60cfa755",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/ace3403eb9f7d9296adee48df1283d3a60cfa755"
+      },
+      {
+        "sha": "eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d"
+      }
+    ]
+  },
+  {
+    "sha": "ace3403eb9f7d9296adee48df1283d3a60cfa755",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T23:51:16Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T23:51:16Z"
+      },
+      "message": "Merge pull request #153 from danielctull-forks/atomic-fix\n\n[NEW] Declare scalar properties atomic to resolve -Weverything warning \"Atomic by default property 'myInt16Value' has a user defined getter (property should be marked 'atomic' if this is intended)\". Daniel Tull.",
+      "tree": {
+        "sha": "55a49ca95fd64de846b322c93c268abef79f4f8a",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/55a49ca95fd64de846b322c93c268abef79f4f8a"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/ace3403eb9f7d9296adee48df1283d3a60cfa755",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ace3403eb9f7d9296adee48df1283d3a60cfa755",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/ace3403eb9f7d9296adee48df1283d3a60cfa755",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/ace3403eb9f7d9296adee48df1283d3a60cfa755/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0"
+      },
+      {
+        "sha": "69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/69178dcfaab73fe1b8f4d234c0a5a58b2db64708"
+      }
+    ]
+  },
+  {
+    "sha": "666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T20:30:22Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-03-16T20:30:22Z"
+      },
+      "message": "Merge pull request #150 from danielctull-forks/master\n\n[FIX] Prevent empty structs if no attributes, relationships or fetched properties exist. Issue #133. (Daniel Tull)",
+      "tree": {
+        "sha": "1bf51c9717765a7c411701d6e91a6ef78f87c80d",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/1bf51c9717765a7c411701d6e91a6ef78f87c80d"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/666f1e68328a8ddd0d903f04e6b6b5c4511a51d0/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/72c98ed0176287f5a3629a659bcb3776ab082bc8"
+      },
+      {
+        "sha": "0a6f7650663e21721e072df8bfbf103dd46ab697",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0a6f7650663e21721e072df8bfbf103dd46ab697",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/0a6f7650663e21721e072df8bfbf103dd46ab697"
+      }
+    ]
+  },
+  {
+    "sha": "69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+    "commit": {
+      "author": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-16T13:02:25Z"
+      },
+      "committer": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-16T13:02:25Z"
+      },
+      "message": "Explicitly declare property atomic to resolve Xcode warning",
+      "tree": {
+        "sha": "e2fe3e754043cb58f5ad4db28a145c1dfca043ca",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/e2fe3e754043cb58f5ad4db28a145c1dfca043ca"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/69178dcfaab73fe1b8f4d234c0a5a58b2db64708",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69178dcfaab73fe1b8f4d234c0a5a58b2db64708/comments",
+    "author": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/72c98ed0176287f5a3629a659bcb3776ab082bc8"
+      }
+    ]
+  },
+  {
+    "sha": "eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+    "commit": {
+      "author": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-16T12:38:13Z"
+      },
+      "committer": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-16T12:38:13Z"
+      },
+      "message": "Escape spaces in the build mogen path, fixes #151",
+      "tree": {
+        "sha": "05158f9a157f2c348cbc9aae1cac36ffb607123b",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/05158f9a157f2c348cbc9aae1cac36ffb607123b"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/eb5a2cbbd375993d0c258d5e12d22f1f99848b6d/comments",
+    "author": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/72c98ed0176287f5a3629a659bcb3776ab082bc8"
+      }
+    ]
+  },
+  {
+    "sha": "0a6f7650663e21721e072df8bfbf103dd46ab697",
+    "commit": {
+      "author": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T22:49:25Z"
+      },
+      "committer": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T22:49:25Z"
+      },
+      "message": "Check if there is a superentity, fix broken test",
+      "tree": {
+        "sha": "1bf51c9717765a7c411701d6e91a6ef78f87c80d",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/1bf51c9717765a7c411701d6e91a6ef78f87c80d"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/0a6f7650663e21721e072df8bfbf103dd46ab697",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0a6f7650663e21721e072df8bfbf103dd46ab697",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/0a6f7650663e21721e072df8bfbf103dd46ab697",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/0a6f7650663e21721e072df8bfbf103dd46ab697/comments",
+    "author": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f03745bca72588a0880d0333fa86ac623d8a1f9",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5f03745bca72588a0880d0333fa86ac623d8a1f9",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/5f03745bca72588a0880d0333fa86ac623d8a1f9"
+      }
+    ]
+  },
+  {
+    "sha": "5f03745bca72588a0880d0333fa86ac623d8a1f9",
+    "commit": {
+      "author": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T18:29:58Z"
+      },
+      "committer": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T18:29:58Z"
+      },
+      "message": "Fix conflicting return type by making subentity's objectID class a subclass of the superentity's objectID class",
+      "tree": {
+        "sha": "1fbbf2cb8e35777f5712d0336b6f7d1bd0bb0f74",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/1fbbf2cb8e35777f5712d0336b6f7d1bd0bb0f74"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/5f03745bca72588a0880d0333fa86ac623d8a1f9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5f03745bca72588a0880d0333fa86ac623d8a1f9",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/5f03745bca72588a0880d0333fa86ac623d8a1f9",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5f03745bca72588a0880d0333fa86ac623d8a1f9/comments",
+    "author": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/54e8c1015d353977ecd4a9d2bb78b06185c61ee9"
+      }
+    ]
+  },
+  {
+    "sha": "54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+    "commit": {
+      "author": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T18:13:55Z"
+      },
+      "committer": {
+        "name": "Daniel Tull",
+        "email": "dt@danieltull.co.uk",
+        "date": "2013-03-15T18:13:55Z"
+      },
+      "message": "Prevent empty structs if no attributes, relationships or fetched properties exist",
+      "tree": {
+        "sha": "7be57f6707912479eaf9e520202ee6f0dfbebb60",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/7be57f6707912479eaf9e520202ee6f0dfbebb60"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/54e8c1015d353977ecd4a9d2bb78b06185c61ee9",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/54e8c1015d353977ecd4a9d2bb78b06185c61ee9/comments",
+    "author": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "danielctull",
+      "id": 11661,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11661",
+      "gravatar_id": "a226c33300a88ba937d7a8f69a4b0b3d",
+      "url": "https://api.github.com/users/danielctull",
+      "html_url": "https://github.com/danielctull",
+      "followers_url": "https://api.github.com/users/danielctull/followers",
+      "following_url": "https://api.github.com/users/danielctull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielctull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielctull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielctull/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielctull/orgs",
+      "repos_url": "https://api.github.com/users/danielctull/repos",
+      "events_url": "https://api.github.com/users/danielctull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielctull/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/72c98ed0176287f5a3629a659bcb3776ab082bc8"
+      }
+    ]
+  },
+  {
+    "sha": "72c98ed0176287f5a3629a659bcb3776ab082bc8",
+    "commit": {
+      "author": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-15T01:53:00Z"
+      },
+      "committer": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-15T02:02:57Z"
+      },
+      "message": "Adding the myTransformableWithProtocol attribute back because of un-mergeable xcdatamodel",
+      "tree": {
+        "sha": "e984bd722e311810353d3d0029fa61295f0a5aba",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/e984bd722e311810353d3d0029fa61295f0a5aba"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/72c98ed0176287f5a3629a659bcb3776ab082bc8",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/72c98ed0176287f5a3629a659bcb3776ab082bc8/comments",
+    "author": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62"
+      }
+    ]
+  },
+  {
+    "sha": "d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+    "commit": {
+      "author": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-15T01:59:58Z"
+      },
+      "committer": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-15T01:59:58Z"
+      },
+      "message": "Updating to latest from 'upstream/master",
+      "tree": {
+        "sha": "6f1773cba7eba9fdfdeed327e81ee61363833030",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/6f1773cba7eba9fdfdeed327e81ee61363833030"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/d6f9840fabd9a2dcc45d9d869f7a28f0cab81b62/comments",
+    "author": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/69fedfa6b25d6563041fb1daba9554b8e1e886cc"
+      },
+      {
+        "sha": "5556c1ba7696cabadfb56780fffaf2c1e91be439",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5556c1ba7696cabadfb56780fffaf2c1e91be439",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/5556c1ba7696cabadfb56780fffaf2c1e91be439"
+      }
+    ]
+  },
+  {
+    "sha": "69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+    "commit": {
+      "author": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-14T09:23:04Z"
+      },
+      "committer": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-14T09:23:04Z"
+      },
+      "message": "Adding tests for attributeTransformableProtocols",
+      "tree": {
+        "sha": "649ce151ee662b80f66d0af5c551bfe8666c5d0f",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/649ce151ee662b80f66d0af5c551bfe8666c5d0f"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/69fedfa6b25d6563041fb1daba9554b8e1e886cc",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/69fedfa6b25d6563041fb1daba9554b8e1e886cc/comments",
+    "author": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "acb84c6fcaf73b9449259f902f2896411d923451",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/acb84c6fcaf73b9449259f902f2896411d923451",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/acb84c6fcaf73b9449259f902f2896411d923451"
+      }
+    ]
+  },
+  {
+    "sha": "acb84c6fcaf73b9449259f902f2896411d923451",
+    "commit": {
+      "author": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-14T09:19:39Z"
+      },
+      "committer": {
+        "name": "Renaud Tircher",
+        "email": "renaud.tircher@gmail.com",
+        "date": "2013-03-14T09:19:39Z"
+      },
+      "message": "Missing semicolon for protocols",
+      "tree": {
+        "sha": "706f361f26904c080e7d3b635c5839988af94220",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/706f361f26904c080e7d3b635c5839988af94220"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/acb84c6fcaf73b9449259f902f2896411d923451",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/acb84c6fcaf73b9449259f902f2896411d923451",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/acb84c6fcaf73b9449259f902f2896411d923451",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/acb84c6fcaf73b9449259f902f2896411d923451/comments",
+    "author": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rtircher",
+      "id": 327881,
+      "avatar_url": "https://avatars.githubusercontent.com/u/327881",
+      "gravatar_id": "0ed84b08ead42692e8dd315b29289bfc",
+      "url": "https://api.github.com/users/rtircher",
+      "html_url": "https://github.com/rtircher",
+      "followers_url": "https://api.github.com/users/rtircher/followers",
+      "following_url": "https://api.github.com/users/rtircher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rtircher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rtircher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rtircher/subscriptions",
+      "organizations_url": "https://api.github.com/users/rtircher/orgs",
+      "repos_url": "https://api.github.com/users/rtircher/repos",
+      "events_url": "https://api.github.com/users/rtircher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rtircher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e6a43309af40f03deaf2db58f1905cd71184e204",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/e6a43309af40f03deaf2db58f1905cd71184e204",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/e6a43309af40f03deaf2db58f1905cd71184e204"
+      }
+    ]
+  },
+  {
+    "sha": "5556c1ba7696cabadfb56780fffaf2c1e91be439",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-27T17:23:53Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-27T17:23:53Z"
+      },
+      "message": "Merge branch 'master' of github.com:rentzsch/mogenerator",
+      "tree": {
+        "sha": "736265d6b28d64bfce03026dd4de9a0304df4fa0",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/736265d6b28d64bfce03026dd4de9a0304df4fa0"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/5556c1ba7696cabadfb56780fffaf2c1e91be439",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5556c1ba7696cabadfb56780fffaf2c1e91be439",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/5556c1ba7696cabadfb56780fffaf2c1e91be439",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/5556c1ba7696cabadfb56780fffaf2c1e91be439/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/3e6074814c4e6655c26469c01adeb3d0aafa9ddb"
+      },
+      {
+        "sha": "783d769e294f4722dc1c78c6a0325e7124cd897c",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/783d769e294f4722dc1c78c6a0325e7124cd897c",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/783d769e294f4722dc1c78c6a0325e7124cd897c"
+      }
+    ]
+  },
+  {
+    "sha": "3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+    "commit": {
+      "author": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-27T17:23:46Z"
+      },
+      "committer": {
+        "name": "rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-27T17:23:46Z"
+      },
+      "message": "[FIX] #42 broken `#import NSManagedObject.h` codegen",
+      "tree": {
+        "sha": "a482554c537ab9456ec4dc7fb6adac1c6bd08438",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/a482554c537ab9456ec4dc7fb6adac1c6bd08438"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/3e6074814c4e6655c26469c01adeb3d0aafa9ddb",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/3e6074814c4e6655c26469c01adeb3d0aafa9ddb/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82"
+      }
+    ]
+  },
+  {
+    "sha": "783d769e294f4722dc1c78c6a0325e7124cd897c",
+    "commit": {
+      "author": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-25T17:43:34Z"
+      },
+      "committer": {
+        "name": "Jonathan 'Wolf' Rentzsch",
+        "email": "jwr.git@redshed.net",
+        "date": "2013-02-25T17:43:34Z"
+      },
+      "message": "Merge pull request #148 from smic/master\n\n[NEW] Don't touch aggregate include file if the content doesn't change. (Stephan Michels)",
+      "tree": {
+        "sha": "6effd29a8c0bc73e0837737b8f0ec5305d5ad7b6",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/git/trees/6effd29a8c0bc73e0837737b8f0ec5305d5ad7b6"
+      },
+      "url": "https://api.github.com/repos/rentzsch/mogenerator/git/commits/783d769e294f4722dc1c78c6a0325e7124cd897c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/783d769e294f4722dc1c78c6a0325e7124cd897c",
+    "html_url": "https://github.com/rentzsch/mogenerator/commit/783d769e294f4722dc1c78c6a0325e7124cd897c",
+    "comments_url": "https://api.github.com/repos/rentzsch/mogenerator/commits/783d769e294f4722dc1c78c6a0325e7124cd897c/comments",
+    "author": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rentzsch",
+      "id": 2971,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2971",
+      "gravatar_id": "4657022b56c5a4cc420c38ed5c99d413",
+      "url": "https://api.github.com/users/rentzsch",
+      "html_url": "https://github.com/rentzsch",
+      "followers_url": "https://api.github.com/users/rentzsch/followers",
+      "following_url": "https://api.github.com/users/rentzsch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rentzsch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rentzsch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rentzsch/subscriptions",
+      "organizations_url": "https://api.github.com/users/rentzsch/orgs",
+      "repos_url": "https://api.github.com/users/rentzsch/repos",
+      "events_url": "https://api.github.com/users/rentzsch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rentzsch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/dfe1e4bd456e87cc23a919c396d3f81a8f5dbc82"
+      },
+      {
+        "sha": "20d6279e2de74d4a28112f29a8b5bd854678c1d6",
+        "url": "https://api.github.com/repos/rentzsch/mogenerator/commits/20d6279e2de74d4a28112f29a8b5bd854678c1d6",
+        "html_url": "https://github.com/rentzsch/mogenerator/commit/20d6279e2de74d4a28112f29a8b5bd854678c1d6"
+      }
+    ]
+  }
+]
