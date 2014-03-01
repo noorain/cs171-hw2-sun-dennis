@@ -40,12 +40,15 @@
   </form>
 <script>
 
+// generates the link/node empty array
 var link, node;
 var graph = {nodes:[], links:[]};
 
+// establishes svg canvas size
 var width = 900,
     height = 700;
 
+// generates svg canvas
 var svg = d3.select("body").append("svg")
             .attr("width", width)
             .attr("height", height);
@@ -168,16 +171,19 @@ function graph_update(delay) {
       });
 }
 
+// applies on-click changes for layout
 d3.select("input[value=\"force\"]").on("click", force_layout);
 d3.select("input[value=\"random\"]").on("click", random_layout);
 d3.select("input[value=\"line\"]").on("click", line_layout);
 d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
 d3.select("input[value=\"radial\"]").on("click", radial_layout);
 
+// allows color toggling
 d3.select("input[value=\"nocolor\"]").on("click", function() {
   d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
 })
 
+// allows color category toggling
 d3.select("input[value=\"color_cat\"]").on("click", category_color);
 
 d3.select("input[value=\"nosize\"]").on("click", function() {
@@ -214,6 +220,12 @@ d3.json("commits.json", function(data) {
                   "source" : i, "target" : k
                 }
                 graph.links.push(pSShaObjectForPush);
+
+                locOfParent = "locOfParent-" + j;
+
+                pSShaObjectParentLabels = {
+                  locOfParent : k
+                }
               }
           }
       }
@@ -234,6 +246,31 @@ node.append("circle")
     .attr("r", 5)
 
   force_layout();
+})
+
+d3.json("refs.json", function(data) {
+  console.log(data);
+  for (i = 0; i < graph.nodes.length; i++) {
+    
+    node = graph.nodes[i];
+
+      sha = node.sha;
+      for (j = 0; j < data.length; i++) {
+
+        object = data[j];
+          innerObject = object.object;
+            refSha = innerObject.sha;
+
+            if (refSha == sha) {
+              graph.nodes[i].push({
+                innerObject.ref
+              });
+            }
+            else {
+
+            }
+      }
+  }
 })
 
 </script>
