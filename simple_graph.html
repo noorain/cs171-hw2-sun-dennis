@@ -2,6 +2,10 @@
 <meta charset="utf-8">
 <title>Homework 2 Graph</title>
 <style>
+  body{
+    font-family: sans-serif;
+  }
+
   .link {
     stroke: #aaaaaa;
     stroke-width: 1.5px;
@@ -15,6 +19,18 @@
 
   .node:hover {
     fill: red;
+  }
+
+  .x_axis path,
+  .x_axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+
+  .x_axis text {
+    font-family: sans-serif;
+    font-size: 11px;
   }
 
 </style>
@@ -61,7 +77,8 @@ var minx = 200,
 //establishes scales
 var normalScale = d3.scale.linear().range([maxx, minx]);
 var timeScale = d3.time.scale().range([minx, maxx]);
-var timeScaled = false;
+var timeScaled = null;
+var xAxisScale = normalScale;
 
 // generates svg canvas
 var svg = d3.select("body").append("svg")
@@ -136,19 +153,17 @@ function line_cat_layout() {
     if (timeScaled == false) {
       d.x = timeScale(d.date);
     }
-    else if (timeScaled == true) {
+    else if (timeScaled == true || timeScaled == null) {
       d.x = normalScale(i);
     }
   });
 
-  if (timeScaled == true){
-    timeScaled = false;
+  if (timeScaled == false) {
+    xAxisScale = timeScale;
   }
-  else if (timeScaled == false){
-    timeScaled = true;
+  else if (timeScaled == true) {
+    xAxisScale = normalScale;
   }
-
-  console.log(timeScaled);
 
   graph_update(500);
 }
@@ -205,10 +220,25 @@ function graph_update(delay) {
 d3.select("input[value=\"force\"]").on("click", force_layout);
 d3.select("input[value=\"random\"]").on("click", random_layout);
 d3.select("input[value=\"line\"]").on("click", line_layout);
-d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
+d3.select("input[value=\"line_cat\"]").on("click", function(){
+  timeScaled = true;
+  line_cat_layout();
+});
 d3.select("input[value=\"radial\"]").on("click", radial_layout);
-d3.select("input[value=\"normal_sort\"]").on("click", line_cat_layout);
-d3.select("input[value=\"time_sort\"]").on("click", line_cat_layout);
+d3.select("input[value=\"normal_sort\"]").on("click", function(){
+  if(d3.select("input[value=\"line_cat\"]").property("checked")){
+    line_cat_layout();
+    timeScaled = false;
+    console.log(timeScaled);
+  }
+});
+d3.select("input[value=\"time_sort\"]").on("click", function(){
+  if(d3.select("input[value=\"line_cat\"]").property("checked")){
+    line_cat_layout();
+    timeScaled = true;
+    console.log(timeScaled);
+  }
+});
 
 // allows color toggling
 d3.select("input[value=\"nocolor\"]").on("click", function() {
@@ -343,7 +373,7 @@ d3.json("commits.json", function(data) {
         .attr("refY", -1.5)
         .attr("markerWidth", 6)
         .attr("markerHeight", 6)
-        .attr("fill", "#aaaaaa")
+        .attr("fill", "#666666")
         .attr("orient", "auto")
       .append("svg:path")
         .attr("d", "M0,-5L10,0L0,5");
@@ -377,6 +407,15 @@ d3.json("commits.json", function(data) {
 
     node.append("circle")
       .attr("r", 5);
+
+    var xAxis = d3.svg.axis()
+      .scale(xAxisScale)
+      .orient("bottom");
+
+    svg.append("g")
+      .attr("class", "x_axis")
+      .attr("transform", "translate(0, 10)")
+      .call(xAxis);
 
     force_layout();
   });
